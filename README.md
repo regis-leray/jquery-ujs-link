@@ -34,7 +34,7 @@ data-with: A JavaScript expression specifying the parameters for the XMLHttpRequ
 ### data-with
 
 ```html
-<select id="category_parent" name="category_parent">
+<select id="category_parent" name="category_parent" class="chosen">
         <option value="1">Parent 1</option>
         <option value="1">Parent 2</option>
     </select>
