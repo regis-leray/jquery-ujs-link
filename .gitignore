@@ -1,0 +1,42 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases #
+######################
+*.sql
+*.sqlite
+*.log
+
+# rails useless files #
+#######################
+#Gemfile.lock
+.bundle
+
+# Project files intellij/netbeans #
+###################################
+*.tmproj
+nbproject
+.idea
+.svn
+
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# General useless files #
+#########################
+/tmp
+.sass-cache/
+public/assets/
+.bundle
+bin/
