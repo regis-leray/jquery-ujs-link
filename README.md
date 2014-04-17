@@ -9,7 +9,8 @@ It only works with jquery (it is the default javascript engine provide in rails 
 
 ## How to install
 
-Only copy the javascript under RAILS_ROOT/vendor/assets/javascripts
+Only copy the javascript jquery.rails.js under RAILS_ROOT/vendor/assets/javascripts
+And add the js in your layout or application.js if you are using the asset pipeline
 
 ## How to use
 
