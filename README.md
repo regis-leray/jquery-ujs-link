@@ -19,6 +19,7 @@ data-with: A JavaScript expression specifying the parameters for the XMLHttpRequ
 
 ### data-submit
 
+```html
 <p id="category-add">
     <input id="category_name" name="category_name" type="text" size="30" />
     <select id="category_parent" name="category_parent">
@@ -28,15 +29,16 @@ data-with: A JavaScript expression specifying the parameters for the XMLHttpRequ
 
     <%= link_to 'Add', add_categories_path , 'data-submit' => "category-add", :method => :post, :remote => true %>
 <p>
-
+```
 
 ### data-with
 
+```html
 <select id="category_parent" name="category_parent">
         <option value="1">Parent 1</option>
         <option value="1">Parent 2</option>
     </select>
 
  <%= link_to '# Edit Place', edit_place_admin_events_path ,'data-with' => "'id='+$('.chosen').val() ", :method => :post, :remote => true %>
-
+```
 
